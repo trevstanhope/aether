@@ -18,11 +18,20 @@ import numpy as np
 import serial
 import gps
 import pymongo
+import json
+from datetime import datetime
+
+def format_time():
+    return datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S.%f')
 
 class AETHER:
-    def __init__(self):
-        pass
+    def __init__(self, config):
+        with open(config, 'w') as configfile
+            self.config = json.loads(configfile.read())
     def update_gps(self):
         pass
     def navigate_to(self):
         pass
+        
+if __name__ == '__main__':
+    session = AETHER('settings.json')

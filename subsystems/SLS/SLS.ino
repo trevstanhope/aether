@@ -1,5 +1,5 @@
 /*
-  Bow Electronic Control Unit
+  Stabilization and Lift Subsystem (SLS)
   Trevor Stanhope
 */
 

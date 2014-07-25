@@ -1,0 +1,5 @@
+{
+    "SLS_DEVICE" : "/dev/ttyACM0",
+    "GPS_DEVICE" : "/dev/ttyS0",
+    "PGS_DEVICE" : "/dev/ttyACM1"
+}
